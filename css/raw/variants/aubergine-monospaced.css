@@ -1335,9 +1335,15 @@ ts-message .reply_bar:hover { background: #3e313c; border-color: #372c36; }
 
 .p-message_pane__foreword__description, .p-message_pane__limited_history_alert { color: #f0d9ed; }
 
-.p-message_pane__limited_history_foreword { background: #4d394b; background-image: none; color: #f0d9ed; }
+.p-message_pane__foreword__notification_warning { background: #4d394b; }
 
-.p-message_pane__unread_banner__banner { background: #61485e; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
+.p-message_pane__unread_banner__banner, .p-message_pane__unread_banner__close { background: #61485e; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
+
+.p-message_pane__unread_banner__banner:hover, .p-message_pane__unread_banner__close:hover { background: #4a3b49; }
+
+.p-message_pane__unread_banner__banner--detached, .p-message_pane__unread_banner__close--detached { border-left: 1px solid #4d394b; }
+
+.p-message_pane__limited_history_foreword { background: #4d394b; background-image: none; color: #f0d9ed; }
 
 .messages_banner { color: #f0d9ed; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
 

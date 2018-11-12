@@ -668,8 +668,11 @@
   .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: #222; border-bottom: 1px solid #222; }
   .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { box-shadow: 0 32px #222; }
   .p-message_pane__foreword__description, .p-message_pane__limited_history_alert { color: #e6e6e6; }
+  .p-message_pane__foreword__notification_warning { background: #363636; }
+  .p-message_pane__unread_banner__banner, .p-message_pane__unread_banner__close { background: #545454; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
+  .p-message_pane__unread_banner__banner:hover, .p-message_pane__unread_banner__close:hover { background: #424242; }
+  .p-message_pane__unread_banner__banner--detached, .p-message_pane__unread_banner__close--detached { border-left: 1px solid #363636; }
   .p-message_pane__limited_history_foreword { background: #363636; background-image: none; color: #e6e6e6; }
-  .p-message_pane__unread_banner__banner { background: #545454; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
   .messages_banner { color: #e6e6e6; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
   .messages_banner a { color: #e6e6e6; }
   .messages_banner a:hover { color: #e6e6e6; }

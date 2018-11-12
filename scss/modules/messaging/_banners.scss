@@ -21,17 +21,30 @@
   &__limited_history_alert {
     color: $base-font-color;
   }
+
+  &__foreword__notification_warning {
+    background: $color-shade-dark;
+  }
+
+  &__unread_banner__banner,
+  &__unread_banner__close {
+    background: $color-shade-light;
+    text-shadow: 0 1px $color-shadow-light;
+
+    &:hover {
+      background: $color-shade-mid;
+    }
+
+    &--detached {
+      border-left: 1px solid $color-shade-dark;
+    }
+  }
 }
 
 .p-message_pane__limited_history_foreword {
   background: $color-shade-dark;
   background-image: none;
   color: $base-font-color;
-}
-
-.p-message_pane__unread_banner__banner {
-  background: $color-shade-light;
-  text-shadow: 0 1px $color-shadow-light;
 }
 
 .messages_banner {
