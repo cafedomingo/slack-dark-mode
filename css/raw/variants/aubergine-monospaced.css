@@ -2605,7 +2605,7 @@ a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #ff
 
 #im_browser .im_browser_row.disabled { color: #a3839f; }
 
-#im_browser #im_list_container:not(.keyboard_active).not_scrolling .im_browser_row:not(.disabled_dm):hover, #im_browser #im_browser .im_browser_row.highlighted { background: #372c36 !important; border: 1px solid #61485e !important; }
+#im_browser #im_list_container:not(.keyboard_active).not_scrolling .im_browser_row:not(.disabled_dm):hover, #im_browser .im_browser_row.highlighted { background: #372c36 !important; border: 1px solid #61485e !important; }
 
 #im_browser_tokens { background: #61485e; border: 1px solid #876484; }
 

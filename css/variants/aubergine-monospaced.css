@@ -1303,7 +1303,7 @@
   #im_browser .im_browser_row.multiparty .member_image + .member_image:not(.ra):not(.ura) { border: 2px solid #372c36; }
   #im_browser .im_browser_row .im_unread_cnt { background: #bf360c; color: #f0d9ed; }
   #im_browser .im_browser_row.disabled { color: #a3839f; }
-  #im_browser #im_list_container:not(.keyboard_active).not_scrolling .im_browser_row:not(.disabled_dm):hover, #im_browser #im_browser .im_browser_row.highlighted { background: #372c36 !important; border: 1px solid #61485e !important; }
+  #im_browser #im_list_container:not(.keyboard_active).not_scrolling .im_browser_row:not(.disabled_dm):hover, #im_browser .im_browser_row.highlighted { background: #372c36 !important; border: 1px solid #61485e !important; }
   #im_browser_tokens { background: #61485e; border: 1px solid #876484; }
   #im_browser_tokens.active { border-color: #876484; box-shadow: 0 0 7px rgba(135, 100, 132, 0.15); }
   #im_browser_tokens .member_token { background: #3e313c; border: 1px solid #372c36; color: #f0d9ed; }
