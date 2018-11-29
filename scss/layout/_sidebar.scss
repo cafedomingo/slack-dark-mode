@@ -8,7 +8,7 @@
 }
 
 .p-channel_sidebar {
-  background-color: $color-shade-dark;
+  background-color: $color-shade-darker;
   color: $base-font-color;
 
   &__channel,
@@ -73,6 +73,10 @@
   &__badge,
   &__banner--mentions {
     background: $color-red;
+  }
+
+  &__banner--unreads {
+    background: $color-purple;
   }
 
   .c-custom_scrollbar__thumb_vertical,

@@ -158,6 +158,17 @@
 #message_edit_container,
 #threads_msgs,
 #reply_container.upload_in_threads {
+  .inline_file_upload {
+    color: $base-font-color;
+    border-color: $color-shade-dark;
+
+    &:active,
+    &:hover,
+    &:focus {
+      background: $color-shade-mid;
+    }
+  }
+
   .inline_message_input_container,
   .inline_message_input_container.with_file_upload {
     background: $color-shade-light;

@@ -94,7 +94,7 @@
   &__reply_bar {
     &:hover,
     &--focus {
-      background-color: $color-base;
+      background-color: $color-shade-mid;
       border-color: $color-shade-darkest;
 
       .c-message__reply_bar_arrow {
@@ -102,7 +102,7 @@
       }
 
       .c-message__reply_bar_view_thread {
-        background-color: $color-shade-light;
+        background-color: $color-shade-mid;
       }
     }
   }

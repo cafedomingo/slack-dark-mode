@@ -48,7 +48,7 @@
 }
 
 .c-tooltip__tip {
-  background-color: $color-shade-light;
+  background-color: $color-shade-mid;
   color: $base-font-color;
 
   &--top {
@@ -119,5 +119,9 @@
         border-left-color: $color-green;
       }
     }
+  }
+
+  .c-reaction__tip_subtitle {
+    color: $color-highlight;
   }
 }

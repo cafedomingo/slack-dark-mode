@@ -1,0 +1,16 @@
+.c-dialog {
+
+  &__header,
+  &__content,
+  &__footer {
+    background: $color-base;
+  }
+
+  &__title {
+    color: inherit;
+  }
+
+  &__content {
+
+  }
+}

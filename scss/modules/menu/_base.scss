@@ -59,6 +59,10 @@
     }
   }
 
+  .c-menu_item__header {
+    color: $color-highlight;
+  }
+
   ul li {
     a {
       background: $color-shade-dark;
